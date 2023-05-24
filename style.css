@@ -8,15 +8,12 @@ body{
     height:100%;
     margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 /* mobile view */
 .desktopView{
     display: none;
-}
-
-#mainSection{
-    min-height: 100vh;
 }
 
 h1 {
@@ -26,7 +23,7 @@ h1 {
     margin-left: 7px;
     margin-top: 437px;
     font-weight: 700;
-    font-size: 43px;
+    font-size: 32px;
     font-style: normal;
     line-height: 58px;
     color: white;
@@ -41,14 +38,18 @@ h3 {
     color: white;
     font-style: normal;
     font-weight: 700;
+    font-size: 24;
     line-height: 29px;
     text-align: center;
 }
 
 .mobileView {
    background-image: url("./hero\ 2.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
    background-size: cover;
    height:100vh;
+   
 }
 
 .logo {
@@ -64,7 +65,7 @@ h3 {
     background-color: #DAEAF6;
     height:100vh;
     width:100vw;
-    margin-top: 800px;
+    margin-top: 840px;
 }
 
 #aboutMe  {
@@ -72,10 +73,10 @@ h3 {
     font-size: 36px;
     font-weight: 600;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
-
-.aboutMe p {
-
+.firstDiv p {
+    padding-top: 40px;
+    color: #252525;
 }
