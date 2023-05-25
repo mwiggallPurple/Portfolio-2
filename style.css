@@ -16,6 +16,11 @@ body{
     display: none;
 }
 
+.heroImg {
+    display:flex;
+    height: 100vh;
+}
+
 h1 {
     position: absolute;
     margin: 0px;
@@ -66,11 +71,9 @@ h3 {
 }
 
 .firstDiv {
-    position: absolute;
     background-color: #DAEAF6;
     height:100vh;
     width:100vw;
-    margin-top: 840px;
 }
 
 #aboutMe  {
