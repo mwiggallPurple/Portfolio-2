@@ -20,7 +20,7 @@ h1 {
     position: absolute;
     margin: 0px;
     width: 319px;
-    height: 58px;
+    /* height: 58px; */
     left: 7px;
     top: 437px;
     font-weight: 700;
@@ -28,21 +28,23 @@ h1 {
     font-style: normal;
     line-height: 58px;
     color: white;
+
 }
 
 h3 {
     position: absolute;
+    display:inline;
     margin:0px;
     width: 223px;
-    height: 29px;
-    left: -19px;
+    /* height: 29px; */
+    left: 7px;
     top: 486px;
     color: white;
     font-style: normal;
     font-weight: 700;
     font-size: 24;
-    /* line-height: 29px; */
-    text-align: center;
+    line-height: 29px;
+    text-align: left;
 }
 
 .mobileView {
