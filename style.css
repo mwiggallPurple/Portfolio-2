@@ -19,9 +19,10 @@ body{
 h1 {
     position: absolute;
     margin: 0px;
-    width: 319px;
+    /* width: 319px; */
     /* height: 58px; */
-    left: 7px;
+    /* left: 7px; */
+    padding-left: 7px;
     top: 437px;
     font-weight: 700;
     font-size: 32px;
@@ -35,9 +36,10 @@ h3 {
     position: absolute;
     display:inline;
     margin:0px;
-    width: 223px;
+    /* width: 223px; */
     /* height: 29px; */
-    left: 7px;
+    /* left: 7px; */
+    padding-left: 7px;
     top: 486px;
     color: white;
     font-style: normal;
@@ -60,7 +62,7 @@ h3 {
     width: 189px;
     height: 154px;
     margin-left: -54px;
-    margin-top: 308px;
+    top: 308px;
 }
 
 .firstDiv {
