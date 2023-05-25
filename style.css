@@ -27,7 +27,7 @@ h1 {
     font-size: 32px;
     font-style: normal;
     line-height: 58px;
-    color: red;
+    color: white;
 }
 
 h3 {
@@ -41,7 +41,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 24;
-    line-height: 29px;
+    /* line-height: 29px; */
     text-align: center;
 }
 
