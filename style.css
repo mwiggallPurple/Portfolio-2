@@ -7,8 +7,9 @@
 body{
     height:100%;
     margin:0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
     flex: wrap;
+    letter-spacing: 2px;
 }
 
 /* mobile view */
@@ -22,12 +23,12 @@ body{
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     margin: 0px;
     padding-left: 7px;
     top: 437px;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 26px;
     font-style: normal;
     line-height: 58px;
     color: white;
@@ -37,12 +38,12 @@ h3 {
     position: absolute;
     display:inline;
     margin:0px;
-    padding-left: 8px;
+    padding-left: 6px;
     top: 486px;
     color: white;
     font-style: normal;
     font-weight: 400;
-    font-size: 24;
+    font-size: 20px;
     
     text-align: left;
 }
@@ -71,8 +72,8 @@ h3 {
 
 #aboutMe  {
     color: #252525;
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
     padding-top: 50px;
 }
@@ -92,8 +93,8 @@ h3 {
 
 #skills {
     color:white;
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
     padding-top: 50px;
 }
@@ -112,14 +113,14 @@ h3 {
 
 #projects {
     color: #252525;
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
     padding-top: 50px;
 }
 
 .thirdDiv p {
     padding-top: 40px;
-    font-size: 16px;
+    font-size: 14px;
     color: #252525;
 }
