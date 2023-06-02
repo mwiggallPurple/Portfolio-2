@@ -8,7 +8,7 @@ body{
     height:100%;
     margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    flex: wrap;
 }
 
 /* mobile view */
@@ -24,33 +24,26 @@ body{
 h1 {
     position: absolute;
     margin: 0px;
-    /* width: 319px; */
-    /* height: 58px; */
-    /* left: 7px; */
     padding-left: 7px;
     top: 437px;
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: 500;
+    font-size: 30px;
     font-style: normal;
     line-height: 58px;
     color: white;
-
 }
 
 h3 {
     position: absolute;
     display:inline;
     margin:0px;
-    /* width: 223px; */
-    /* height: 29px; */
-    /* left: 7px; */
     padding-left: 8px;
     top: 486px;
     color: white;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 24;
-    line-height: 29px;
+    
     text-align: left;
 }
 
@@ -86,5 +79,47 @@ h3 {
 
 .firstDiv p {
     padding-top: 40px;
+    color: #252525;
+    font-size: 16px;
+}
+
+.secondDiv {
+    background-color: #124E96;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#skills {
+    color:white;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.secondDiv p {
+    padding-top: 40px;
+    font-size: 16px;
+    color: white;
+}
+
+.thirdDiv {
+    background-color: #DAEAF6;
+    height:100vh;
+    width:100vw;
+}
+
+#projects {
+    color: #252525;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.thirdDiv p {
+    padding-top: 40px;
+    font-size: 16px;
     color: #252525;
 }
