@@ -5,11 +5,9 @@
 }
 
 body{
-    height:100%;
+    min-height: 100vh;
     margin:0;
-    font-family: monospace;
-    flex: wrap;
-    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* mobile view */
@@ -27,6 +25,8 @@ h1 {
     margin: 0px;
     padding-left: 7px;
     top: 437px;
+    letter-spacing: 2px;
+    font-family: monospace, Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 26px;
     font-style: normal;
@@ -36,19 +36,19 @@ h1 {
 
 h3 {
     position: absolute;
-    display:inline;
     margin:0px;
     padding-left: 6px;
     top: 486px;
+    letter-spacing: 2px;
     color: white;
+    font-family: monospace, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    
     text-align: left;
 }
 
-.mobileView {
+.heroImg {
    background-image: url("./hero\ 2.jpg");
    background-position: center;
    background-repeat: no-repeat;
@@ -123,4 +123,93 @@ h3 {
     padding-top: 40px;
     font-size: 14px;
     color: #252525;
+}
+
+.contactMe {
+    background-color:#0D8ABC;
+    height:100vh;
+    width:100vw;
+}
+
+#whiteH2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 25px;
+    margin-left: 21px;
+}
+
+
+.formContainer {
+    width: 100vw;
+    background-color: #0D8ABC;
+    font-size: 16px;
+}
+
+#contactForm {
+padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+[type="submit"],
+textarea {
+width: 100%;
+padding: 10px 16px;
+background-color: #DAEAF6;
+margin: 8px 0px;
+border: none;
+border-color: none;
+}
+
+input[type="submit"] {
+    background-color: #FF008E;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 20px;
+    cursor: pointer;
+    } 
+ 
+input::placeholder {
+    font-weight: bolder;
+    opacity: .5;
+    color: black;
+}
+    
+textarea::placeholder {
+    font-weight: bolder;
+    opacity: .5;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons{
+    height: 20vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-evenly;   
+}
+ 
+i {
+    color: #DAEAF6;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 15px 0px;
+}
+
+span{
+    display: inline-block;
+    color:#DAEAF6;
+    font-size: 20px;
+}
+
+.lowerLogo {
+    position: absolute;
+    top: 4100px;
+    right: 0;
+    width:125px;
+    height: 125px;
 }
