@@ -129,6 +129,7 @@ h3 {
     background-color:#0D8ABC;
     height:100vh;
     width:100vw;
+    position:relative;
 }
 
 #whiteH2 {
@@ -160,6 +161,7 @@ background-color: #DAEAF6;
 margin: 8px 0px;
 border: none;
 border-color: none;
+border-radius: 0px;
 }
 
 input[type="submit"] {
@@ -170,6 +172,7 @@ input[type="submit"] {
     text-align: center;
     padding: 14px 20px;
     cursor: pointer;
+    border-radius: 0px;
     } 
  
 input::placeholder {
@@ -208,7 +211,7 @@ span{
 
 .lowerLogo {
     position: absolute;
-    top: 4100px;
+    top: 525px;
     right: 0;
     width:125px;
     height: 125px;
