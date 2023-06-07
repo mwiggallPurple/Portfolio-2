@@ -129,7 +129,8 @@ h3 {
     background-color:#0D8ABC;
     height:100vh;
     width:100vw;
-    position:relative;
+    display:flex;
+    flex-direction: column;
 }
 
 #whiteH2 {
@@ -211,11 +212,10 @@ span{
 }
 
 .lowerLogo {
-    position: absolute;
-    top: 520px;
-    right: 0;
+    top: 720px;
     width:125px;
     height: 125px;
+    align-self: center;
 }
 
 footer{
