@@ -207,6 +207,7 @@ span{
     display: inline-block;
     color:#DAEAF6;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .lowerLogo {
@@ -215,4 +216,14 @@ span{
     right: 0;
     width:125px;
     height: 125px;
+}
+
+footer{
+    display: flex;
+    height:48px;
+    background-color: #FF008E;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
 }
