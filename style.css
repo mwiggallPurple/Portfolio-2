@@ -211,22 +211,6 @@ span{
     text-decoration: none !important;
 }
 
-.imgContainer {
-    width:200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
-    margin-left: auto;
-    margin-bottom: auto;
-   }
- 
-.lowerLogo {
-    width:125px; 
-    height: 125px;     
-}
-
-
 footer{
     display: flex;
     height:48px;
