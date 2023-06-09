@@ -206,12 +206,13 @@ textarea::placeholder { /*placeholder text styling for message box*/
 
 
 .iconText  { /*text styling next to icon to stop blue in the link*/
+    /* color: #DAEAF6; */
     color: #DAEAF6;
     text-decoration: none;
     }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* link text */
     color:#DAEAF6;
 } 
 
