@@ -211,7 +211,8 @@ textarea::placeholder { /*placeholder text styling for message box*/
     }
 
 .telNumber {
-    color: #DAEAF6;
+    /* color: #DAEAF6; */
+    color: red;
     text-decoration: none;
 }    
 
@@ -233,4 +234,7 @@ footer{  /*pink footer styling*/
     justify-content: center;
     align-items: center;
 }
+
+
+
 
