@@ -210,11 +210,10 @@ textarea::placeholder { /*placeholder text styling for message box*/
     text-decoration: none;
     }
 
-.telNumber {
-    /* color: #DAEAF6; */
-    color: red;
+a {
     text-decoration: none;
-}    
+    color:#DAEAF6;
+} 
 
 .bottomLogo {  /*logo at the bottom of the contact me div styling*/
     position: absolute;
