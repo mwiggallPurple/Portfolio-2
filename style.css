@@ -204,15 +204,7 @@ textarea::placeholder { /*placeholder text styling for message box*/
     color: #DAEAF6;
 }
 
-.numberText {
-    text-decoration: none;
-    color: #DAEAF6;
-    margin-left: 23px;
-    font-weight: 100;
-    font-size: 16px;
-    padding: 15px 0px;
-    letter-spacing: 1.5px;
-}
+
 .iconText  { /*text styling next to icon to stop blue in the link*/
     color: #DAEAF6;
     text-decoration: none;
