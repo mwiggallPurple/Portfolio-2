@@ -208,7 +208,12 @@ textarea::placeholder { /*placeholder text styling for message box*/
 .iconText  { /*text styling next to icon to stop blue in the link*/
     color: #DAEAF6;
     text-decoration: none;
-}
+    }
+
+.telNumber {
+    color: #DAEAF6;
+    text-decoration: none;
+}    
 
 .bottomLogo {  /*logo at the bottom of the contact me div styling*/
     position: absolute;
