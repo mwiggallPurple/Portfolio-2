@@ -199,9 +199,14 @@ textarea::placeholder { /*placeholder text styling for message box*/
     letter-spacing: 1.5px;
 }
 
-.iconLink{  /*removes underlining for the link and the blue colour*/
+.iconLink{  /*removes underlining for the link and the blue color*/
     text-decoration: none;
     color: #DAEAF6;
+}
+
+.iconText  {
+    color: #DAEAF6;
+    text-decoration: none;
 }
 
 .bottomLogo {  /*logo at the bottom of the contact me div styling*/
