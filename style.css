@@ -205,6 +205,8 @@ textarea::placeholder { /*placeholder text styling for message box*/
     font-size: 4vw;
     padding: 15px 0px;
     letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
 .iconLink{  /*removes underlining for the link and the blue color*/
@@ -213,15 +215,15 @@ textarea::placeholder { /*placeholder text styling for message box*/
 }
 
 
-.iconText  { /*text styling next to icon to stop blue in the link*/
+/* .iconText  { /*text styling next to icon to stop blue in the link
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #DAEAF6;
+    color: red;
     text-decoration: none;
-    }
+    } */ 
 
 a {
     text-decoration: none; /* link text */
-    color:#DAEAF6;
+    color: #DAEAF6;
 } 
 
 .bottomLogo {  /*logo at the bottom of the contact me div styling*/
