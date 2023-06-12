@@ -195,7 +195,7 @@ textarea::placeholder { /*placeholder text styling for message box*/
     color: #252525;
    }
 
-.icons{   /*icon div containter*/
+.icons{   /*icon div container*/
     margin-top: 10px;
 }
 .iconText{  /*icon styling and text styling*/
@@ -249,10 +249,11 @@ footer{  /*pink footer styling*/
 
 /*tablet view starts here*/
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 650px){
     .mobileView {
         display:none;
     }
     
+
 }
 
