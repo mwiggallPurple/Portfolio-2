@@ -147,7 +147,8 @@ h3 {   /*sub-title*/
     color: white;
     font-size: 6vw;
     font-weight: 400;
-    padding-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     margin-left: 18px;
 }
 
@@ -215,9 +216,8 @@ input[type="submit"] {  /*form submit button styling*/
     color: #DAEAF6;
 }
 
-
 a {
-    text-decoration: none; /* link text */
+    /* link a tag blue color changed to style sheet blue */
     color: #DAEAF6;
 } 
 
@@ -258,14 +258,25 @@ footer{  /*pink footer styling*/
     }
 
     h1{
-        color: white;
-        font-size: 4vw;
+        font-family: monospace, sans-serif;
+        font-size: 64px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
         left: 74px;
+    }
+
+    h3 {
+        font-family: monospace, sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        left: 74px;
+        margin-top: 15px;
     }
 .logo{    
         position: absolute;
-        width: 200px;
-        height: 200px;
+        width: 190px;
+        height: 190px;
         left: 60px;
         top: 110px;
 }
