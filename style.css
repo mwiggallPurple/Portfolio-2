@@ -161,7 +161,7 @@ h3 {   /*sub-title*/
 }
 
  #contactForm { /*form padding*/
-  padding: 20px;
+  padding:0px 20px;
 }
 
 label {
@@ -173,7 +173,7 @@ input[type="email"],
 [type="submit"],
 textarea {
 width: 100%;
-padding: 10px 16px;
+padding:10px 16px;
 background-color: #DAEAF6;
 font-size: 16px;
 border:none;
