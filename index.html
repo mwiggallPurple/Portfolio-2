@@ -14,12 +14,15 @@
          <!-- <header></header> put burger menu here      -->
     </section>
 
+    <header>
     <div class="heroImg">
     <img class="logo" src="./Logo no bg.svg" alt="pink and blue logo">
     <h1>Melissa Wiggall</h1>
     <h3>Front End Engineer</h3>
     </div>
-    
+    </header>
+
+
      <div class="aboutMediv">
         <h2 id="aboutMe">About Me</h2>
         <p class="aboutMetext">Text goes here </p>
@@ -39,20 +42,23 @@
         <h2 id="contactMe">Contact Me</h2>
      
         <div class="formContainer">
-          <form id="contactForm" action="">
-            
-            <input type="text" id="firstName" name="firstName" maxlength="100" placeholder="Name" />
+            <form id="contactForm" action="mailto:mwiggall2023@gmail.com" method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm">
+                <label for="firstName">First Name</label>
+                <input class="input1" type="text" id="firstName" name="firstName" maxlength="100" />
+                <label for="surname">Last Name</label>
+                <input class="input1" type="text" id="LastName" name="lastName" maxlength="100" />
+                <label for="email">Email</label>
+                <input class="input1" type="email" id="email" name="email" />
+                <label for="message">Message</label>
+                <textarea class="input1" name="message" rows="7" cols="30"></textarea>
+                <input type="submit" value="Send a Message" />
     
-            <input type="email" id="email" name="email" required placeholder="E-Mail"/>
-      
-            <textarea rows="7" cols="30" placeholder="Message"></textarea>
-    
-            <input type="submit" value="Submit"/>
-          </form>
         </div>
     
         <div class="icons">
-            <p class="iconText"><i class="fa-solid fa-phone-flip"></i>   07870 370 664</p>
+            <p class="iconText"><a href="tel:07887370664"></a><i class="fa-solid fa-phone-flip"></i> 07870 370 664</p>
             <p class="iconText"><a href="mailto:mwiggall2023@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></a>   mwiggall2023@gmail.com</p>
             <p class="iconText"><a href="https://github.com/mwiggallPurple"><i class="fa-brands fa-github"></i> </a>  mwiggallPurple</p>                                  </p>  
         </div>

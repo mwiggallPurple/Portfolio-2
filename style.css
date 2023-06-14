@@ -60,9 +60,9 @@ h3 {   /*sub-title*/
 
 .logo {/*title page logo positioning and styling*/
     position: absolute;
-    width: 189px;
+    width: 154px;
     height: 154px;
-    margin-left: -54px;
+    margin-left: -38px;
     top: 308px;
 }
 
@@ -163,6 +163,10 @@ h3 {   /*sub-title*/
   padding: 20px;
 }
 
+label {
+    color: #DAEAF6;
+    font-size: 16px;
+}
 input[type="text"], /*input box styling*/
 input[type="email"],
 [type="submit"],
@@ -170,8 +174,8 @@ textarea {
 width: 100%;
 padding: 10px 16px;
 background-color: #DAEAF6;
-margin: 8px 0px;
-border: none;
+font-size: 16px;
+border:none;
 }
 
 input[type="submit"] {  /*form submit button styling*/
@@ -184,21 +188,10 @@ input[type="submit"] {  /*form submit button styling*/
     text-align: center;
     padding: 14px 20px;
     cursor: pointer;
+    margin-top: 5px;
     } 
  
-input::placeholder {  /*placeholder text styling for name and email*/
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    opacity: .5;
-    color: #252525;
-}
-    
-textarea::placeholder { /*placeholder text styling for message box*/
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    opacity: .5;
-    color: #252525;
-   }
+
 
 .icons{   /*icon div container*/
     margin-top: 10px;
@@ -248,20 +241,30 @@ footer{  /*pink footer styling*/
 
 /*tablet view starts here*/
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 400px){
     .mobileView {
         display:none;
     }
+    
+    .desktopView {
+        display:none;
+    }
+
+    .heroImg {
+        position: relative;
+    }
 
     h1{
-        color: red;
+        color: white;
         font-size: 4vw;
+        left: 74px;
     }
-.logo{    position: absolute;
-width: 190px;
-height: 190px;
-left: 39px;
-top: 103px;
+.logo{    
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 60px;
+        top: 110px;
 }
 }
 
