@@ -157,6 +157,7 @@ h3 {   /*sub-title*/
     background-color: #0D8ABC;
     font-size: 6vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:solid red 5px;
 }
 
  #contactForm { /*form padding*/
