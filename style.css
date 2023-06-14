@@ -161,7 +161,7 @@ h3 {   /*sub-title*/
 }
 
  #contactForm { /*form padding*/
-  padding:0px 20px;
+  padding: 0px 20px;
 }
 
 label {
@@ -187,9 +187,8 @@ input[type="submit"] {  /*form submit button styling*/
     font-size: 4vw;
     letter-spacing: 1.5px;
     text-align: center;
-    padding: 14px 20px;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 10px;
     } 
  
 
