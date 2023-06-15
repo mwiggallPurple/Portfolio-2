@@ -269,7 +269,7 @@ footer{  /*pink footer styling*/
 
     h1{
         font-family: monospace, sans-serif;
-        font-size: 5dvh;
+        font-size: 5vw;
         font-weight: bold;
         letter-spacing: 1.5px;
         left: 74px;
@@ -277,7 +277,7 @@ footer{  /*pink footer styling*/
 
     h3 {
         font-family: monospace, sans-serif;
-        font-size: 32px;
+        font-size: 3vw;
         font-weight: bold;
         letter-spacing: 1.5px;
         left: 74px;
@@ -294,7 +294,7 @@ nav { /*Nav bar parent container*/
     font-size: 20px;
     background-color: #DAEAF6;
     position: absolute;
-    width: 800px;
+    width: 700px;
     height: 50px;
     left: 380px;
     top: 176px;
