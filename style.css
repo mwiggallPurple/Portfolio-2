@@ -314,7 +314,7 @@ nav { /*Nav bar parent container*/
 
 .home{ /*different coloured home button styling*/
     background-color: #FF008E;
-    padding: 5px 40px 10px 40px;
+    padding: 5px 40px 5px 40px;
 }
 
 .home a { /*this removes the underline from the home button*/
