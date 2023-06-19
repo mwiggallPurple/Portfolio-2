@@ -255,10 +255,11 @@ footer{  /*pink footer styling*/
 }
     .heroImg { /* tablet view home page*/
         position: relative;
+        background-image: url(./hero\ 2.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height:80vh;
+        height:50vh;
         width: 100vw;
     }
 
@@ -269,7 +270,7 @@ footer{  /*pink footer styling*/
         font-weight: bold;
         letter-spacing: 1.5px;
         left: 74px;
-        top: 560px;
+        top: 360px;
     }
 
     h3 {
@@ -279,15 +280,15 @@ footer{  /*pink footer styling*/
         font-weight: bold;
         letter-spacing: 1.5px;
         left: 74px;
-        top: 630px;
+        top: 430px;
         
     }
 .logo{    /*bigger logo for a tablet screen*/
         position: absolute;
         width: 170px;
         height: 170px;
-        left: 60px;
-        top: 400px;
+        left: 74px;
+        top: 200px;
 }
 
 nav { /*Nav bar parent container*/
