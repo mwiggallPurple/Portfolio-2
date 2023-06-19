@@ -210,17 +210,8 @@ input[type="submit"] {  /*form submit button styling*/
     list-style-type: none;
 }
 
-.iconText li {
-    text-decoration: none;
-}
-
-.iconLink{  /*removes underlining for the link and the blue color*/
-    text-decoration: none;
-    color: #DAEAF6;
-}
-
 a {
-    /* link a tag blue color changed to style sheet blue */
+    /* icon changed to style sheet blue */
     color: #DAEAF6;
 } 
 
@@ -310,7 +301,7 @@ nav { /*Nav bar parent container*/
     margin: 0px 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: bold;
     height: 60px;
     align-items: center;
 }
