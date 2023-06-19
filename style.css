@@ -213,6 +213,7 @@ input[type="submit"] {  /*form submit button styling*/
 a {
     /* icon changed to style sheet blue */
     color: #DAEAF6;
+    text-decoration: none;
 } 
 
 .bottomLogo {  /*logo at the bottom of the contact me div styling*/
