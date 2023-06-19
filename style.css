@@ -193,7 +193,6 @@ input[type="submit"] {  /*form submit button styling*/
     cursor: pointer;
     margin-top: 10px;
     } 
- 
 
 
 .icons{   /*icon div container*/
@@ -208,6 +207,7 @@ input[type="submit"] {  /*form submit button styling*/
     letter-spacing: 1.5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: none;
+    text-decoration: none;
 }
 
 a {
