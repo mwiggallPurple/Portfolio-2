@@ -1,0 +1,10 @@
+border:solid red 5px;
+
+
+.navText a:hover{ /*this makes the cursor into a hand pointer when you hover over the links*/
+    cursor: pointer;
+}
+
+.navText a:hover{
+    text-decoration: underline;
+}

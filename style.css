@@ -299,6 +299,7 @@ nav { /*Nav bar parent container*/
     height: 50px;
     left: 0px;
     top: 0px; 
+    
 }
 
 .navLinks { /*nav links*/
@@ -310,7 +311,6 @@ nav { /*Nav bar parent container*/
     font-size: 1.3rem;
     height: 50px;
     align-items: center;
-    
 }
 
 .navText a{ /* this removes the underline from the other links*/
@@ -319,10 +319,78 @@ nav { /*Nav bar parent container*/
     font-weight: 100;
 }
 
-.navText a:hover{ /*this makes the cursor into a hand pointer when you hover over the links*/
-    cursor: pointer;
+.aboutMediv{    /*parent container for the whole page*/
+    display:flex;
+    /* position: relative; might need this later&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+    width: 100vw;
+    height: 100vh;;
+    border: red solid 5px;
 }
 
+.textContainer{   /*this div holds the text*/
+    border:blue solid 5px;
+    height:100vh;
+    width: 50vw;
+    background-color: pink;
+}
+
+#aboutMe{ /*this is the id for the about me H2*/
+    border: red solid 5px;
+    font-size: 42px;
+    text-align: left ; 
+    margin-top: 250px;
+}
+.aboutMetext{ /*this is the body text for the div*/
+    text-align: left;
+    font-size: 14px;
+    border: yellow solid 5px;
+    color:red;
+}
+
+.imgDiv{ /*this div holds the img*/
+    border:yellow solid 5px;
+    width:50vw;
+    height:100vh;
+    background-color: peru;
+ }
+
+.skillsDiv { /*skills parent container*/
+    display:flex;
+    /* position: relative;  */
+    width: 100vw;
+    height: 100vh;;
+    border: red solid 5px;
+    background-color: purple;
+}
+
+.skillsimgDiv{
+    border: solid red 4px;
+    width:50vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.divText{ /*this div holds the text*/
+    width:50vw;
+    height:100vh;
+    border:blue solid 5px;
+    height:100vh;
+    width: 50vw;
+    background-color: pink;
+}
+
+#skills {
+    font-size: 42px;
+    text-align: left ; 
+    margin-top: 250px;
+}
+
+.skillsText{
+    text-align: left;
+    font-size: 14px;
+    border: yellow solid 5px;
+    color:red;
 }
 
 
+}
