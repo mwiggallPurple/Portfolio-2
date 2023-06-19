@@ -209,6 +209,9 @@ input[type="submit"] {  /*form submit button styling*/
     list-style-type: none;
     text-decoration: none;
 }
+li {
+    text-decoration: none;
+}
 
 a {
     /* icon changed to style sheet blue */
