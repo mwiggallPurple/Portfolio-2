@@ -259,7 +259,7 @@ footer{  /*pink footer styling*/
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height:50vh;
+        height:75vh;
         width: 100vw;
     }
 
@@ -310,10 +310,13 @@ nav { /*Nav bar parent container*/
     font-size: 1.3rem;
     height: 50px;
     align-items: center;
+    
 }
 
 .navText a{ /* this removes the underline from the other links*/
     text-decoration: none;  
+    color: white;
+    font-weight: 100;
 }
 
 .navText a:hover{ /*this makes the cursor into a hand pointer when you hover over the links*/
