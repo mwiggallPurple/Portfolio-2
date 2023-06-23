@@ -439,11 +439,8 @@ input[type="submit"] {  /*form submit button styling*/
     font-weight: bold;
     font-size: 2vw;
     letter-spacing: 1.5px;
-    text-align: center;
     cursor: pointer;
     margin-top: 10px;
-    width:25vw;
-    
     } 
 
 .icons{ /*icons container div*/
@@ -461,11 +458,9 @@ i {
 
 .iconText{
     flex-direction: column;
-    top: 60px;
-    left: 200px;
-    padding: 25px 0px 0px 25px;
+    padding: 25px 0px 20px 25px;
     color: #DAEAF6;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .bottomLogo{
