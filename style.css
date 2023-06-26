@@ -405,9 +405,11 @@ nav { /*Nav bar parent container*/
 }
 
 #contactMe{ /* h2 title*/
-text-align: left;
-font-size: 4vw;
+font-size: 45px;
 padding-top:70px;
+color: #DAEAF6;
+margin-left:0px;
+border: red solid 2px;
 }
 
 .formContainer{ /*form styling for tablet*/
