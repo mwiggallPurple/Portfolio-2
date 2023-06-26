@@ -61,22 +61,20 @@
         
         <div class="formContainer">
             <h2 id="contactMe">Contact Me</h2>
-             <form id="contactForm" action="mailto:mwiggall2023@gmail.com" method="post"
-            enctype="multipart/form-data"
-            name="EmailForm">
+                <form action="https://formsubmit.co/mwiggall2023@gmail.com" method="POST">
                 <label for="firstName">Name</label>
                 <input class="input1" type="text" id="name" name="name" maxlength="100" />
-
                 <label for="email">Email</label>
                 <input class="input1" type="email" id="email" name="email" />
-                
+                <input type="hidden" name="_autoresponse" value="Thank you">
                 <label for="message">Message</label>
                 <textarea class="input1" name="message" rows="6" cols="30" required></textarea>
-                
-                <input type="submit" value="Send a Message" />
-    
+                <button type="submit">Send a Message</button>
+                <input type="hidden" name="_next" value="https://mwiggallpurple.github.io/Portfolio-2/#aboutMe/thanks.html">
+             </form>
         </div>
-    
+
+       
         <div class="icons">
             <ul>
                 <li class="iconText"><a href="tel:07401469465"><i class="fa-solid fa-phone-flip"></i></a> 07401 469 465 </li>
@@ -85,7 +83,7 @@
             </ul>
         </div>
 
-   <img class="bottomLogo" src="./Logo no bg.svg">
+         <img class="bottomLogo" src="./Logo no bg.svg">
     </div>
 
 <footer>

@@ -432,7 +432,7 @@ background-color: #DAEAF6
 /* font-size: 14px; */
 }
 
-input[type="submit"] {  /*form submit button styling*/
+button[type="submit"] {  /*form submit button styling*/
     background-color: #FF008E;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
